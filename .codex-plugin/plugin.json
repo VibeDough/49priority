@@ -1,13 +1,13 @@
 {
-  "name": "task-priority-marker",
-  "version": "0.1.0+codex.20260719020404",
+  "name": "49labs-priority",
+  "version": "0.1.0+codex.20260719031932",
   "description": "Add colored priority dots directly to Codex task and child-task titles.",
   "author": {
     "name": "49labs"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "49labs Task Priority Marker",
+    "displayName": "49labs Priority",
     "shortDescription": "Put colored priority dots in the task list.",
     "longDescription": "Prefixes Codex task and child-task titles with a seven-color priority dot so urgency is visible directly in the sidebar.",
     "developerName": "49labs",

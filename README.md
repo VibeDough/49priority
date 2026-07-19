@@ -1,4 +1,4 @@
-# 49labs Task Priority Marker
+# 49labs Priority
 
 为 Codex 任务列表添加可见的彩色优先级圆点。选择优先级后，插件会自动重命名当前任务，把标记放在标题最前面：
 
