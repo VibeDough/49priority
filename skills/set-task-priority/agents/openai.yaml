@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set Task Priority"
+  short_description: "Mark task priority and working status"
+  default_prompt: "Use $set-task-priority to label this task before starting."

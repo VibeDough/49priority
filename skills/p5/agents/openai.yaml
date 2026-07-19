@@ -1,0 +1,4 @@
+interface:
+  display_name: "p5"
+  short_description: "Quick Codex task priority marker"
+  default_prompt: "Use $p5 to mark this Codex task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clear Priority"
+  short_description: "Remove the task priority dot"
+  default_prompt: "Use $pclear to clear this Codex task priority."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "p1"
+  short_description: "Quick Codex task priority marker"
+  default_prompt: "Use $p1 to mark this Codex task."

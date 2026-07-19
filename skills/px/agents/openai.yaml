@@ -1,0 +1,4 @@
+interface:
+  display_name: "PX Clear Priority"
+  short_description: "Remove the task priority dot"
+  default_prompt: "Use $px to clear this Codex task priority."

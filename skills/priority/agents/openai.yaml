@@ -1,0 +1,4 @@
+interface:
+  display_name: "priority"
+  short_description: "Quick Codex task priority marker"
+  default_prompt: "Use $priority to mark this Codex task."
