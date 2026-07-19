@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next Priority"
+  short_description: "Open the highest-priority Codex task"
+  default_prompt: "Use $pnext to open my highest-priority Codex task."

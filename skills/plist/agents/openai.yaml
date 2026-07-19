@@ -1,0 +1,4 @@
+interface:
+  display_name: "Priority List"
+  short_description: "List marked Codex tasks by priority"
+  default_prompt: "Use $plist to show my marked Codex tasks."
