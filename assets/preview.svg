@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">49priority task list preview</title>
+  <desc id="desc">A Codex-style task list with colored priority dots.</desc>
+  <rect width="720" height="340" rx="28" fill="#f5f5f7"/>
+  <rect x="34" y="28" width="652" height="284" rx="20" fill="#ffffff" stroke="#dedee3"/>
+  <text x="66" y="72" fill="#202124" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="650">49priority</text>
+  <line x1="66" y1="92" x2="654" y2="92" stroke="#ececf0"/>
+  <circle cx="82" cy="132" r="10" fill="#ff5a5f"/>
+  <text x="106" y="140" fill="#25262a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20">修复登录问题</text>
+  <circle cx="82" cy="180" r="10" fill="#ff932e"/>
+  <text x="106" y="188" fill="#25262a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20">完成发布文档</text>
+  <circle cx="82" cy="228" r="10" fill="#ffd23f"/>
+  <text x="106" y="236" fill="#25262a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20">验证插件快捷指令</text>
+  <circle cx="82" cy="276" r="10" fill="#3d9df6"/>
+  <text x="106" y="284" fill="#25262a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20">调研后续功能</text>
+</svg>
