@@ -30,9 +30,10 @@ Do not ask for a priority again after it has been set in the current task.
 - Use the Codex task-title/thread-title tool immediately after the user selects a marker.
 - Target the calling task when no task ID is specified.
 - When a child task ID is available and the user explicitly targets that child, rename that child task.
-- Preserve the title text. Only add or replace one leading priority marker.
-- Recognize `🔴`, `🟠`, `🟡`, `🟢`, `🔵`, `🟣`, and `⚪` as existing markers.
-- Never stack markers. Changing `🔴 修复登录` to blue must produce `🔵 修复登录`.
+- Preserve the title text. P0-P5 add or replace one leading priority marker.
+- Recognize `🔴`, `🟠`, `🟡`, `🟢`, `🔵`, and `🟣` as priorities; recognize `⚪` as a pause marker.
+- Allow one priority plus one pause marker in the canonical order `<priority> ⚪ <title>`. Pause may also stand alone as `⚪ <title>`.
+- Never duplicate markers. Changing `🔴 ⚪ 修复登录` to blue must produce `🔵 ⚪ 修复登录`.
 - Do not add status markers to the sidebar title; the leading circle is priority only.
 - If the title tool is unavailable, say that the current Codex surface cannot rename the task. Do not pretend the sidebar changed.
 
@@ -46,7 +47,7 @@ Do not ask for a priority again after it has been set in the current task.
 | 🟢 | P3 | 普通 | Normal queue |
 | 🔵 | P4 | 低 | Useful improvement with little urgency |
 | 🟣 | P5 | 有空再做 | Someday or exploratory work |
-| ⚪ | P6 | 暂停 | Parked, deferred, or intentionally inactive |
+| ⚪ | P6 | 暂停 | Parked, deferred, or intentionally inactive; may be added after P0-P5 |
 
 Treat the color as a label, not a claim about task status.
 
