@@ -1,6 +1,6 @@
 {
   "name": "49priority",
-  "version": "0.1.0+codex.20260719054444",
+  "version": "0.1.0+codex.20260720014532",
   "description": "Add colored priority dots directly to Codex task and child-task titles.",
   "author": {
     "name": "49labs"
@@ -16,6 +16,8 @@
       "Interactive"
     ],
     "brandColor": "#FF5A5F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
     "defaultPrompt": [
       "$p0 \u6807\u7ea2\u5e76\u5f00\u59cb\u8fd9\u4e2a\u4efb\u52a1\u3002",
       "$p1 \u6807\u4e3a\u9ad8\u4f18\u5148\u7ea7\u5e76\u5f00\u59cb\u3002",

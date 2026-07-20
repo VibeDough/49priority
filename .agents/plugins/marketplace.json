@@ -1,0 +1,21 @@
+{
+  "name": "49priority",
+  "interface": {
+    "displayName": "49priority"
+  },
+  "plugins": [
+    {
+      "name": "49priority",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VibeDough/49priority.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
